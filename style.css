@@ -3,7 +3,7 @@
   margin: 0%;
   border: 0%;
   height: auto;
-  overflow-x:hidden;
+  
 }
 .ar{
   display: flex;
@@ -271,10 +271,10 @@ flex-direction: row;
 }
 @media (max-width:600px) {
 body{
-  overflow-x: hidden;
+  overflow-x: hidden
 }
   .div-1, .div-2, .div-3, .div-4, .div-5{
-  
+  width:auto;
     height: 110vh;
   }
   
@@ -285,7 +285,7 @@ body{
     .ar{
       display: flex;
       position: relative;
-      left: 30px;
+      left: 40px;
       gap:3% ;
     
   }
