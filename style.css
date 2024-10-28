@@ -273,6 +273,7 @@ body{
   overflow-x: hidden;
 }
   .div-1, .div-2, .div-3, .div-4, .div-5{
+    widht:100vh:
     height: 110vh;
   }
   
