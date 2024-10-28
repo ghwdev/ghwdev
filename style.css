@@ -274,7 +274,7 @@ body{
   overflow-x: hidden
 }
   .div-1, .div-2, .div-3, .div-4, .div-5{
-  width:auto;
+  width:100vw;
     height: 110vh;
   }
   
@@ -290,7 +290,7 @@ body{
     
   }
   .area{
-    width: 100%;
+    width: 100vw;
   }
   h3{
     position:relative;
