@@ -1,0 +1,333 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  border: 0%;
+  height: auto;
+}
+.ar{
+  display: flex;
+  position: relative;
+  left: 70%;
+  gap:5% ;
+}
+.ar>a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 15px;
+}
+.area{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  z-index: 2;
+  left: -0%;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+h3{
+  color: aliceblue;
+  font-size: 25px;
+  position: relative;
+  left: 3%;
+}
+body{
+  background-color: rgb(39, 38, 38);
+  display: flex;
+overflow:auto ;
+flex-direction: column;
+overflow-y:auto;
+scrollbar-width: none; 
+}
+html{
+  scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar{
+  width: none;
+  height: none;
+  display: none;
+  z-index: 0;
+}
+
+
+.div-1{
+  z-index: 1;
+  margin: 0px;
+  background-attachment: fixed;
+  background-image: linear-gradient(120deg,rgba(34, 29, 29, 0.432),rgba(0, 0, 0, 0.404)), url(img/fundi.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110vh;
+  text-align: left;
+  color: rgb(242, 242, 245);
+  mask-image:linear-gradient(to bottom,black 60%, rgba(0,0,0,0.001)90%);
+}
+span{
+  color: orangered;
+}
+h1{
+  font-size: 50px;
+
+max-width: 50%;
+  height: auto;
+  position: relative;
+  top: 20%;
+  left: 5%;
+  color: azure;
+}
+p{
+  font-size: 35px;
+  max-width: 50%;
+  height: auto;
+  position: relative;
+  top: 25%;
+  left: 6%;
+  color: aliceblue;
+}
+.img-1{
+  top: -34%;
+  left: 60%;
+position: relative;
+height: 60%;
+}
+h2{
+  font-size: 55px;
+  padding: 30px;
+  color: aliceblue;
+  text-align: center;
+  height: auto;
+}
+.div-2{
+  z-index: 1;
+  background-image: linear-gradient(120deg,rgba(34, 29, 29, 0.801),rgba(0, 0, 0, 0.514)),  url(img/gaf.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 110vh;
+  margin: 0px;
+  mask-image:linear-gradient(to bottom,black 70%, rgba(0,0,0,0.001)100%);
+}
+.img-2{
+  top: -30%;
+  left: 60%;
+position: relative;
+height: 66%;
+}
+.div-3{
+  z-index: 1;
+  background-image: linear-gradient(120deg,rgba(34, 29, 29, 0.801),rgba(0, 0, 0, 0.514)),  url(img/Fundo\ de\ meio-tom\ com\ ondas\ _\ Vetor\ Grátis.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 130vh;
+  margin: 0px;
+  mask-image:linear-gradient(to bottom,black 70%, rgba(0,0,0,0.001)100%);
+  display: flex;
+
+}
+.butao{
+  
+  display: flex;
+  flex-direction: column;
+position: relative;
+top: 20%;
+left:85%;
+width: 60px;
+height: 70vh;
+}
+.botin{
+  margin-top: 15px;
+  color: aliceblue;
+background-color: rgba(255, 255, 255, 0.164);
+  height: 50px;
+  width: 50px;
+  gap: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  inset: 0;
+}
+.botin:hover{
+  box-shadow: 
+  0 0 0 3px #eee,
+  0 0 0 6px #393e46,
+  0 0 0 9px rgb(153, 44, 153),
+  0 0 0 12px #eee,
+  0 0 12px 15px rgb(153, 44, 153);
+
+}
+.lista{
+  display: none;
+  max-width: 50%;
+  position: relative;
+  top: 30%;
+  left: -7%;
+  color: aliceblue;
+  font-size: 35px;
+}
+.ativo{
+  display: block;
+}
+#faqs{
+  left: 21%;
+  text-align: center;
+  
+}
+
+.div-4{
+  z-index: 1;
+  background-image: linear-gradient(120deg,rgba(34, 29, 29, 0.829),rgba(0, 0, 0, 0.74)),  url(img/formas-geometricas-gradientes-em-fundo-escuro_23-2148434188.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  margin: 0px;
+  overflow-y: auto;
+
+
+
+}
+p,li{  font-family: "Arima", serif;
+}
+h1, h2, h3{
+  font-family: "Poppins", sans-serif;
+
+}
+.links-1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center; 
+  gap:20px ;
+  overflow-y: auto; 
+  
+}
+.links{
+  border-radius: 20px;
+  padding-top:70px ;
+left: 5%;
+  position: relative;
+  top: 10%;
+  display: block;
+  text-align: center;
+  width: 90%;
+  height: 100px;
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.712);
+
+}
+.links:hover{
+  box-shadow: 
+  0 0 0 3px #eee,
+  0 0 0 6px #393e46,
+  0 0 0 9px rgb(153, 44, 153),
+  0 0 0 12px #eee,
+  0 0 12px 15px rgb(153, 44, 153);
+
+}
+.div-5{
+  mask-image:linear-gradient(to top,black 70%, rgba(0,0,0,0.001)100%);
+  z-index: 1;
+  background-image: linear-gradient(120deg,rgba(34, 29, 29, 0.829),rgba(0, 0, 0, 0.74)),  url(img/estilo-de-gradiente-colorido-abstrato-de-onda-de-fundo_483537-2250.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 190vh;
+
+
+}
+.links-de-contato>a>img{
+    height: 50px;
+  border-radius: 15px;}
+.links-de-contato{position: relative;
+
+gap: 30px;
+top: 30%;
+justify-content: center;
+align-items: end;
+display: flex;
+flex-direction: row;
+}
+.p-de-bai{
+  left: 26%;
+  text-align: center;
+  top: 30%;
+
+}
+.ha{
+  position: relative;
+  top: 25%;
+}
+.ha>p{
+  max-width: 70%;
+}
+@media (max-width:540px) {
+body{
+  overflow-x: hidden;
+}
+  .div-1, .div-2, .div-3, .div-4, .div-5{
+    height: 110vh;
+  }
+  
+  
+  .ar>a{
+    font-size: 11px;
+  }
+    .ar{
+      display: flex;
+      position: relative;
+      left: 55px;
+      gap:5% ;
+    
+  }
+  .area{
+    width: 100vh;
+  }
+  h3{
+    font-size: 20px;
+  }
+  h1, h2{
+    font-size: 25px;
+  }
+  p{
+    font-size: 13px;
+  }
+  .img-1{
+    position: relative;
+    top:5%;
+    height: 150px;
+  }
+  span{
+    font-size: 25px;
+  }
+  #faqs{
+    position: relative;
+    top: 3%;
+    left: 11%;
+    text-align: center;}
+    
+  .lista{
+      max-width: 60%;
+      position: relative;
+      top: 10%;
+      left: -17%;
+      color: aliceblue;
+    font-size: 15px;
+  }
+  .butao{
+    position: relative;
+    left: 70%;
+  }
+}
+@media (max-width:400px) {
+  .butao{
+    position: relative;
+    left: 60%;}
+}
