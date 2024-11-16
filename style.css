@@ -5,6 +5,10 @@
   height: auto;
   
 }
+.im{
+  height: 50px;
+  width: 50px;
+}
 .ar{
   display: flex;
   position: relative;
